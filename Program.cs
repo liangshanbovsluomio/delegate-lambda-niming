@@ -22,6 +22,7 @@ namespace 委托_匿名方法
             {
                 Console.WriteLine("我是{0},我会{1},我吃青蛙", a.Type, a.Jineng);
             };
+            ani2.eatFood += EagleEat;//利用+=和-=可以增删调用列表
             ani2.Eating();
         
             
